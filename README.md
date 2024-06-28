@@ -1,14 +1,33 @@
 ```
-*.swp
-.DS_Store
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
+/.vscode/*
+/!.vscode/extensions.json
+/.fleet
+/.idea
 /.phpunit.cache
 /node_modules
+/vendor
+/dist
+/dist-ssr
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
 .env
 .env.backup
 .env.production
@@ -16,9 +35,4 @@
 Homestead.json
 Homestead.yaml
 auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
-/.idea
-/.vscode
 ```
